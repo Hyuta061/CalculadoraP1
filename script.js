@@ -65,12 +65,12 @@ function iniciarCalc() {
               return;
             }
             if(!calc){
-              alert("Expreção invalida");
+              alert("Expressão invalida");
               return;
             }
             this.input.value = calc;
           }catch(err){
-            alert("Expreção invalida");
+            alert("Expressão invalida");
             return; 
           }
         }
@@ -86,12 +86,12 @@ function iniciarCalc() {
             return;
           } 
           if(!calc){
-            alert("Expreção Inválida")
+            alert("Expressão Inválida")
             return;
           }
           this.input.value = calc;
         } catch(err){
-          alert("Expreção Inválida")
+          alert("Expressão Inválida")
           return;
 
         }
